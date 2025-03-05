@@ -10,7 +10,7 @@ from kivy.uix.floatlayout import FloatLayout
 from kivy.uix.slider import Slider
 from kivy.config import Config
 from kivy.uix.image import Image 
-import screen_brightness_control as sbc# импортирую всё остальное
+import screen_brightness_control as sbc# импортирую библиотеку для контроля яркостью
 Window.size=(450,190)
 Window.clearcolor=(1,1,1,1)# задаю размеры окна и его цвет
 class Brightness(App):# главный класс
